@@ -1,0 +1,78 @@
+@charset "utf-8";
+/* CSS Document */
+#container{
+	position:relative;
+	margin: 0px auto;
+	height:auto;
+	width:1000px;
+}
+
+header{
+	float: left;
+	height: 150px;
+	width: 1000px;
+	background-color: aquamarine;
+}
+
+header h1{
+	text-align: center;
+}
+
+nav{
+	float: left;
+	width: 200px;
+	height: 500px;
+	background-color: wheat;
+}
+section{
+	float: right;
+	width: 800px;
+	height: 500px;
+	background-color: rgb(234, 252, 190);
+}
+footer{
+	float: left;
+	width: 1000px;
+	height: 100px;
+	background-color: rgb(251, 255, 215);
+}
+#sanpham{
+	float: left;
+	margin: 20px;
+	height: 250px;
+	width: 160px;
+	border: 1px solid red;
+}
+
+#sanpham_ten{
+	float: left;
+	height: 20px;
+	padding-top: 7px;
+	width: 100%;
+	text-align: center;
+	color: black;
+}
+
+#sanpham_gia{
+	float: left;
+	height: 20px;
+	padding-top: 50px;
+	width: 100%;
+	text-align: center;
+	color: black;
+	font-weight: bold;
+}
+#sanpham_hinh{
+	float: left;
+	height: 150px;
+	width: 100%;
+	text-align: center;
+}
+
+img {
+
+	max-width: 90%;
+	height: auto;
+	object-fit: cover;
+  
+  }
